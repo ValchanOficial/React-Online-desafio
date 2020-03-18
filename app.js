@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 
-const token = 'Uma calopsita esteve aqui';
+const token = 'Uma calopsita esteve aqui e levou meu token'; // necessário alterar para testar
 const getURL = 'https://api.codenation.dev/v1/challenge/dev-ps/generate-data?token=';
 const submitURL = 'https://api.codenation.dev/v1/challenge/dev-ps/submit-solution?token=';
 
