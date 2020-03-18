@@ -1,0 +1,22 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "description": "Criptografia de Júlio César",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "pdf": "nodemon read.js"
+  },
+  "author": "Valchan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "form-data": "^3.0.0",
+    "js-sha1": "^0.6.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.15",
+    "nodemon": "^1.19.3"
+  }
+}
